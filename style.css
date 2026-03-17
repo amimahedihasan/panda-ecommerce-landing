@@ -41,3 +41,60 @@ body{
     padding: 50px;
    
 }
+
+.contentarea p{
+    font-family: "Inter", sans-serif;
+    font-size: 16;
+}
+
+.contentarea h1{
+    font-size: 50;
+   font-weight: bold;
+}
+
+.contentarea h1, p, h3, button{
+    margin-bottom: 25px;
+}
+
+.contentarea h3{
+    color: #FF136F;
+    font-size: 40px;
+    font-weight: 550;
+}
+
+.contentarea button{
+    height: 40px;
+    width: 150px;
+    padding: 14px 20px;
+    background-color: #FF383C;
+    border-radius: 6px;
+    color: #FEEAE9;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+  /* Header Responsive */
+  @media screen and (max-width:950px){
+    .main_box{
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+  }
+
+
+
+
+.img img{
+    width: 400px;
+    filter: drop-shadow(0px 20px 15px rgba(0,0,0,0.35));
+}
+
+.div_box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box h3{
+    float: left;
+    overflow: hidden;
+}
