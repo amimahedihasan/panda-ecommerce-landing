@@ -168,3 +168,47 @@ body{
 .shoes h3{
     font-size: 22px;
 }
+
+.footer{
+    background-color: #FFF2F1;
+    padding: 80px 0px;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.footer h1{
+   font-size: 30px;
+}
+
+.sub{
+    display: flex;
+    gap: 0;
+    justify-content: center;
+}
+
+.footer input{
+    background-color: #ffffff;
+    padding: 23px 180px;
+    margin: 0;
+    border: none;
+    font-size: 18px;
+    padding-left: 30px;
+    font-family: "Poppins", sans-serif; 
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+   
+}
+
+.footer button{
+    margin: 0;
+    padding: 23px 50px;
+    border: none;
+    background-color: #FF136F;
+    color: white;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif; 
+
+}
+
