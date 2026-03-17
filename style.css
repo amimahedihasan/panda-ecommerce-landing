@@ -98,3 +98,73 @@ body{
     float: left;
     overflow: hidden;
 }
+
+.div_box{
+    display:flex;
+    gap:25px;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    flex:1;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 15px 15px 20px;
+    border-radius:12px;
+    color:white;
+    gap:20px;
+    font-size: 24px;
+  
+   
+}
+
+.box1{
+    background-color: #FF9C35;
+}
+.box2{
+    background: linear-gradient(90deg,#ff2e77,#ff0f5a);
+}
+
+.box3{
+    background: #3F07F8;
+}
+
+.shoes-box{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.shoes{
+    border: 1px solid #929292;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+    flex: 1;
+    max-width: 340px;
+}
+
+.shoes img{
+    max-width: 280px;
+    min-height: 200px;
+    margin-bottom: 20px;
+}
+
+.shoes h4{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.shoes button{
+   background-color: black;
+   color: white;
+   border-radius: 6px;
+   font-size: 16px;
+   padding: 14px 20px;
+}
+
+.shoes h3{
+    font-size: 22px;
+}
